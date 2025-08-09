@@ -14,6 +14,3 @@ endforeach()
 
 list(LENGTH PROBLEM_SOURCES NUM_PROBLEMS)
 message(STATUS "Configured ${NUM_PROBLEMS} problems")
-
-
-add_library(cses_clion ${PROBLEM_SOURCES})
