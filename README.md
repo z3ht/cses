@@ -48,4 +48,4 @@ python3 tests/<section>/<problem>.py
 
 ## CLion Run Configurations
 
-The `.run/` directory has CLion run configuration templates that directly run the matching binary from `build/`. These let you run and debug problems inside CLion without typing commands manually. Duplicate a template, change the target binary name, and you’re ready to go. See the [CLion documentation](https://www.jetbrains.com/help/clion/run-debug-configuration.html) for details on creating or editing configurations.
+The `.run/` directory contains CLion templates. These let you run problems inside CLion without terminal commands. See the [CLion documentation](https://www.jetbrains.com/help/clion/run-debug-configuration.html) for details on importing configurations.
