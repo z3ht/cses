@@ -13,8 +13,8 @@ My C++ solutions to the [CSES Problem Set](https://cses.fi/problemset/), along w
 * Each `.cpp` file in `problems/**` is compiled into a binary in `build/` with the same name.
 * Example:
 
-  * Source: `problems/a_intro/weird_algorithm.cpp`
-  * Binary: `build/weird_algorithm`
+  * Source: `problems/a_intro/001_weird_algorithm.cpp`
+  * Binary: `build/001_weird_algorithm`
 
 ---
 
