@@ -1,6 +1,6 @@
 # CSES Problem Set (C++)
 
-This is where I keep my C++ solutions to the [CSES Problem Set](https://cses.fi/problemset/), along with a CMake build setup and Python test scripts
+My C++ solutions to the [CSES Problem Set](https://cses.fi/problemset/), along with my CMake build setup and Python test scripts
 
 ---
 
