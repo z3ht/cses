@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_compile_options(-Wall -Wextra -Werror)
 
-file(GLOB_RECURSE PROBLEM_SOURCES "${CMAKE_SOURCE_DIR}/problems/**/[0-9][0-9][0-9]_*.cpp")
+file(GLOB_RECURSE PROBLEM_SOURCES "${CMAKE_SOURCE_DIR}/problems/**/*.cpp")
 
 foreach(SOURCE_FILE ${PROBLEM_SOURCES})
     get_filename_component(PROBLEM_NAME ${SOURCE_FILE} NAME_WE)
