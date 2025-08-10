@@ -31,7 +31,7 @@
 * Step 4: unify odd number case with odd chunks
 *  1) Peel: S(n) = 1 + n-1 + S(n−1)
 *  2) Inspect S(n−1): it pairs into floor((n−1)/2) chunks (each sums to n)
-*  3) If that chunk count is odd, observe near middle is (z-1),(z) to 1 can be added to (z-1) to equal z
+*  3) If that chunk count is odd, observe near middle is (z-1),(z). So 1 can be added to (z-1) to equal z
 *  4) Result: after splitting up middle, if an even number of whole chunks remain → alternate pairs to finish
 *
 * Step 5: Name the parities and compute
