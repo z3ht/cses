@@ -79,16 +79,3 @@ int main() {
     }
     std::cout << z << '\n';
 }
-
-
-int main() {
-    long long n;
-    std::cin >> n;
-
-    long long z = 0;
-    while (n) {
-        n /= 5;
-        z += n;
-    }
-    std::cout << z << '\n';
-}
