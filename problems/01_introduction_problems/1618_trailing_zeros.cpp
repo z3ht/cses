@@ -31,8 +31,9 @@
 *  - In n!, 2s are far more common than 5s (every even contributes 2s).
 *  - Therefore zeros are limited by the number of 5s, not 2s.
 *  - Proving this is hard, but its true. See below comment.
+*  - In an interview, its more realistic to compute both and min the result
 *
-* Step 5: Count 5s
+* Step 5: Count 5s (and maybe 2s)
 *  - Multiples of 5 contribute one 5 each
 *  - Multiples of 25 contribute an extra, 125 another, etc.
 *  - zeros = ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … (stop when the term becomes 0)

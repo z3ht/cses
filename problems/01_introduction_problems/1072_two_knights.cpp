@@ -16,7 +16,7 @@
 * Step 2: Subtract attacking pairs
 *  - Knights attack only in 2×3 or 3×2 rectangles
 *  - Each rectangle has exactly 2 attacking pairs
-*  - Count rectangles: (n-1)*(n-2) each way → attacks = 4*(n-1)*(n-2)
+*  - Count rectangles: (n-1)*(n-2) each way → attacks = 2*2*(n-1)*(n-2)
 *  - Pattern: replace per-cell move checks with counting how often a local motif fits
 *
 * Step 3: Final formula
